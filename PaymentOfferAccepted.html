@@ -1,0 +1,668 @@
+            
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Offer Accepted</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="robots" content="index, follow"/>
+
+            <link rel="shortcut icon" type="image/ico" href="./mll/favicon.ico"/>
+            <link rel="icon" type="image/ico" href="./mll/favicon.ico"/>
+            <link rel="apple-touch-icon" href="./mll/favicon.ico"/>
+            
+
+    <link href="./mll/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./mll/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./mll/css/katabat_css/core/katabat_core_1.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="./mll/css/katabat_core_2_css/katabat_core_2.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="./mll/css/cmc.css" rel="stylesheet" type="text/css"/>
+    <link href="./mll/css/client.css" rel="stylesheet" type="text/css"/>
+    <link href="./mll/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="./mll/scripts/jquery-3.4.1.js" type="text/javascript"></script>
+    <style type="text/css">
+      .ui-datepicker .ui-datepicker-title {
+        margin: 0px 1.3em;
+        line-height: 1.8em;
+        text-align: center;
+      }
+    </style>
+</head>
+<body class="responsive">
+
+            <div id="mobile_nav_flyout_left" class="small medium inactive">
+              <div id="mobile_nav_flyout_left_container">
+                  <div class="bg_off_white">
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                              <a title="Account Summary" class="block horizontal active" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/html/acctSummary">
+                                  <span class="text-transform">Account Summary</span>
+                              </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                            <a title="Payment Options" class="block horizontal inactive" href="javascript:void(0);" onclick="more(this)">
+                                <span class="plus_minus"><span class="fa-plus"></span></span>
+                                <span class="text-transform">Payment Options</span>
+                            </a>
+                        </h3>
+                        <div class="accordion_content">
+                            <a title="Make A Payment" class="vertical bg_white button_menu_item " href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/exec/payment">
+                                <span class="indent_1 alignment_wide">Make A Payment</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Review Payment Offers" class="vertical bg_white button_menu_item " href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/exec/program">
+                                <span class="indent_1 alignment_wide">Review Payment Offers</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Manage Payment Methods" class="vertical bg_white button_menu_item " href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/payments/manageBankAccounts">
+                                <span class="indent_1 alignment_wide">Manage Payment Methods</span><span class="fa-chevron-right"></span>
+                            </a>
+                        </div>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Update Contact Info" class="block horizontal active" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/flow/contactFlow">
+                                <span class="text-transform">Update Contact Info</span>
+                            </a>
+                        </h3>
+
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Schedule Appointment" class="block horizontal active" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/appointment/list">
+                                <span class="text-transform">Schedule Appointment</span>
+                            </a>
+                        </h3>
+
+                    <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                          <a title="Logout" class="block horizontal active" href="#" onclick="checkLogoffWorkflow();">
+                              <span class="text-transform">Logout</span>
+                          </a>
+                    </h3>
+                  </div>
+
+              </div>
+             </div>
+
+             <div id="mobile_nav_flyout_right" class="small medium inactive">
+                <div id="mobile_nav_flyout_right_container">
+                </div>
+              </div>
+            
+
+
+<div id="page_center">
+    <div id="page_center_container">
+        <div id='content'>
+            <div id='content_container'>
+                <div id='header'>
+                    <div id='header_container'>
+                    
+            <div id="mobile_nav" class="small medium no-print">
+              <ul>
+                <li class="icon">
+                    <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_left')"><span
+                      class="fa-bars"></span></a>
+                </li>
+                <li>
+Welcome <br/>
+                    <span class="weight_bold welcome_info">
+                        Theressa Robertazzi
+                    </span>
+                </li>
+                <li class="icon">
+                  <a title="MLLRecovery" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/html/acctSummary">
+                    <img class="logo" alt="MLL" src="mll/images/logo/logo.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="user_logout" class="large no-print">
+                <div id="user_logout_container">
+                  <p class="weight_bold">Welcome &nbsp; 
+
+                          Theressa Robertazzi
+                    &nbsp;|&nbsp;
+                    <a href="#" onclick="checkLogoffWorkflow();">Logout</a>
+
+                  </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+          
+                    
+            <div id="top_nav" class="large no-print">
+              <div id="top_nav_container">
+                <div class="multicolumn_row multicolumn_row_borderless">
+                  <div class="multicolumn_column top_logo_width">
+                    <div class="multicolumn_column_container">
+                      <a title="" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/html/acctSummary">
+                        <img alt="" src="mll/images/logo/logo.png">
+                      </a>
+                      <div class="fit-logo"></div>
+                      <div class="column_fill">
+                      </div>
+                      <!-- End multicolumn_column_container -->
+                    </div>
+                    <!-- End multicolumn_column -->
+                  </div>
+                    <div class="multicolumn_column width_last top_nav_width">
+                      <div class="multicolumn_column_container">
+                        <ul id="top_nav_menu" class="">
+                            <li id="top_nav_menu_0">
+                              <a title="Account Summary" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/html/acctSummary" class="text-transform">Account Summary</a>
+                            </li>
+                            <li id="top_nav_menu_1" class="menu_button url_off not_full">
+                              <a title="Payment Options" class="menu_button_a text-transform" href="javascript:void(0);">Payment Options</a>
+                              <div id="top_nav_targets_1" class="top_nav_target flyout">
+                                <div class="article article_standard">
+                                  <p><a title="Make A Payment" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/exec/payment">Make A Payment</a></p>
+                                  <p><a title="Review Payment Offers" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/exec/program">Review Payment Offers</a></p>
+                                  <p><a title="Manage Payment Methods" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/payments/manageBankAccounts">Manage Payment Methods</a></p>
+                                </div>
+                              </div>
+                            </li>
+                            <!-- <li id="top_nav_menu_2">
+                              <a title="Update Contact Info" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/flow/contactFlow" class="text-transform">Update Contact Info</a>
+                            </li> -->
+
+                            <!-- <li id="top_nav_menu_3">
+                              <a title="Schedule Appointment" href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/appointment/list" class="text-transform">Schedule Appointment</a>
+                            </li> -->
+                        </ul>
+                        <div class="column_fill">
+                        </div>
+                        <!-- End multicolumn_column_container -->
+                      </div>
+                      <!-- End multicolumn_column -->
+                    </div>
+                  <!-- End multicolumn_row -->
+                </div>
+              </div>
+            </div>
+            
+                        <div class='clear'></div>
+                    </div><!-- End header_container -->
+                    <div class='clear'></div>
+                </div><!-- End header -->
+                <div id='main'>
+                    <div id='main_container'>
+                        <div id="main_right_unit">
+                            <div id="main_content_right_rail_unit">
+                                <div id="main_content" class="no_right_rail">
+                                    <div id="main_content_container">
+                                      <div id="title_main_content" class="page_title">
+                                        <h1 class="text-transform">Payment Offer Accepted <span class="page-header-stuffix">-2283</span></h1>
+                                        <!-- End title_main_content -->
+                                      </div>
+                                      <div class="multicolumn_row multicolumn_row_standard">
+                                        <div class="multicolumn_column width_100 width_last">
+                                          <div class="multicolumn_column_container">
+                                            <p class="h4">Your current balance is: $31,572.59.
+                                            </p>
+                                              <p class="h2 text_light font-min">You have scheduled the following payment(s) when you accepted this arrangement:</p>
+                                            <div class="column_fill"></div>
+                                            <!-- End multicolumn_column_container --></div>
+                                          <!-- End multicolumn_column --></div>
+                                        <div class="clear"></div>
+                                        <!-- ECM0000 -->
+                                        <!-- End multicolumn_row --></div>
+                                        <div class="article article_standard">
+                                            <div class="list">
+                                                <table class="no_more_tables table-striped table-standard cf">
+                                                    <thead>
+                                                        <tr class="bg_light_blue">
+                                                            <th><p class="weight_normal">Funding Account</p><div class="clear"></div></th>
+                                                            <th><p class="weight_normal">Payment Amount</p><div class="clear"></div></th>
+                                                            <th><p class="weight_normal">Payment Date</p><div class="clear"></div></th>
+                                                            <th><p class="weight_normal">Status</p><div class="clear"></div></th>
+                                                        </tr>
+                                                    </thead>
+                                                                <tr class="bg_faded_light_blue">
+                                                                    <td data-title="Funding Account" class="width_25">
+                                                                        <p class="large">tester</p>
+                                                                        <p class="small medium right no_top_margin">tester</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Amount" class="width_25">
+                                                                        <p class="large">$6,314.52</p>
+                                                                        <p class="small medium right no_top_margin">$6,314.52</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Date" class="width_25">
+                                                                        <p class="large">05/15/2020</p>
+                                                                        <p class="small medium right no_top_margin">05/15/2020</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Status" class="width_25">
+                                                                        <p class="large">InProcess</p>
+                                                                        <p class="small medium right no_top_margin">InProcess</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="bg_faded_light_blue">
+                                                                    <td data-title="Funding Account" class="width_25">
+                                                                        <p class="large">tester</p>
+                                                                        <p class="small medium right no_top_margin">tester</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Amount" class="width_25">
+                                                                        <p class="large">$6,314.52</p>
+                                                                        <p class="small medium right no_top_margin">$6,314.52</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Date" class="width_25">
+                                                                        <p class="large">06/15/2020</p>
+                                                                        <p class="small medium right no_top_margin">06/15/2020</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Status" class="width_25">
+                                                                        <p class="large">Scheduled</p>
+                                                                        <p class="small medium right no_top_margin">Scheduled</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="bg_faded_light_blue">
+                                                                    <td data-title="Funding Account" class="width_25">
+                                                                        <p class="large">tester</p>
+                                                                        <p class="small medium right no_top_margin">tester</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Amount" class="width_25">
+                                                                        <p class="large">$6,314.52</p>
+                                                                        <p class="small medium right no_top_margin">$6,314.52</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Date" class="width_25">
+                                                                        <p class="large">07/15/2020</p>
+                                                                        <p class="small medium right no_top_margin">07/15/2020</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Status" class="width_25">
+                                                                        <p class="large">Scheduled</p>
+                                                                        <p class="small medium right no_top_margin">Scheduled</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="bg_faded_light_blue">
+                                                                    <td data-title="Funding Account" class="width_25">
+                                                                        <p class="large">tester</p>
+                                                                        <p class="small medium right no_top_margin">tester</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Amount" class="width_25">
+                                                                        <p class="large">$6,314.52</p>
+                                                                        <p class="small medium right no_top_margin">$6,314.52</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Date" class="width_25">
+                                                                        <p class="large">08/15/2020</p>
+                                                                        <p class="small medium right no_top_margin">08/15/2020</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Status" class="width_25">
+                                                                        <p class="large">Scheduled</p>
+                                                                        <p class="small medium right no_top_margin">Scheduled</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="bg_faded_light_blue">
+                                                                    <td data-title="Funding Account" class="width_25">
+                                                                        <p class="large">tester</p>
+                                                                        <p class="small medium right no_top_margin">tester</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Amount" class="width_25">
+                                                                        <p class="large">$6,314.51</p>
+                                                                        <p class="small medium right no_top_margin">$6,314.51</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Payment Date" class="width_25">
+                                                                        <p class="large">09/15/2020</p>
+                                                                        <p class="small medium right no_top_margin">09/15/2020</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                    <td data-title="Status" class="width_25">
+                                                                        <p class="large">Scheduled</p>
+                                                                        <p class="small medium right no_top_margin">Scheduled</p>
+                                                                        <div class="clear"></div>
+                                                                    </td>
+                                                                </tr>
+                                                </table>
+
+                                                    <p class="h4">Please click <a href='/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/doc/contactUs' target='_blank'>Contact Us</a> if you have any questions.</p>
+
+                                              <p>
+                                                <a href="/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/html/acctSummary">Return to Account Summary</a>
+                                                  <br>
+                                              </p>
+                                            </div>
+                                        </div>
+                                        <div class='clear'></div>
+                                    </div>
+                                    <div class='clear'></div>
+                                </div>
+                                <div class='clear'></div>
+                            </div>
+                            <div class='clear'></div>
+                        </div>
+                        
+                        <div class="clear"></div>
+                        <div id="main_bottom">
+                            <div id="main_bottom_container">
+                                <div class="modal" id="timeoutCutDownWin">
+                                    <div class="modal_container">
+                                        <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
+                                                class="fa-times-circle">&nbsp;</span></a></div>
+                                        <p class="h2">Session Timeout</p>
+                                        <hr>
+                                        <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
+
+                                        <p class="text_red">
+                                          <span id="sessionTimeoutLeftSeconds">
+120                                          </span>
+second(s) left ...                                        </p>
+                                        <p><a href="javascript:void(0);" onclick="activeSession();"
+                                              class="vertical button_standard bg_blue btn btn-primary">
+                                                <span>
+                                                  <strong>
+Keep Session Active                                                  </strong>
+                                                </span>
+                                              </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clear">&nbsp;</div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+            
+                        <div class='clear'></div>
+                    </div>
+                    <div class='clear'></div>
+                </div><!-- End main -->
+                <div class='clear'></div>
+            </div><!-- End content_container -->
+        
+      <div id="footer" class="no-print">
+        <div id="footer_top_border">
+          <!-- End footer_top_border -->
+        </div>
+        <div id="footer_container">
+          <div class="article article_standard">
+            <p>
+              <span>
+                <a href="https://www.missionlane.com/legal" target="_blank" rel="noopener">Terms of Use</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="https://www.missionlane.com/about" target="_blank" rel="noopener">About Us</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="https://www.missionlane.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="https://support.missionlane.com/hc/en-us/requests/new" target="_blank" rel="noopener">Contact Us</a>
+              </span>
+              <span>
+                  <img class="footerlogo" alt="MLL" src="mll/images/logo/logo.png">
+             </span>
+            </p>
+            <p>
+            <span class="copyright">
+&copy;Mission Lane LLC. All Rights Reserved.              </span>
+             </p>
+            <p>
+            <br/><br/>
+              <span class="right">
+Call Us:&nbsp; 888-695-8536              </span>
+            </p>
+            <p></p>
+            <!-- End article -->
+          </div>
+          <div class="clear"></div>
+          <!-- End footer_container" -->
+        </div>
+        <div class="clear">
+        </div>
+        <!-- End footer -->
+      </div>
+            
+            <div class='clear'></div>
+        </div><!-- End content -->
+    </div><!-- End page_center_container -->
+</div><!-- End page_center -->
+
+       <style>
+                .highlight{
+                    font-weight: bold;
+                    color: blue;
+                }
+                .no-close .ui-dialog-titlebar-close {
+                  display: none;
+                }
+                .center-alignment{
+                    text-align: center;
+                }
+       </style>
+
+<div id="popupWinModel" class="modal large" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                onclick="cancelPopupWin()"></button>
+        <h4>&nbsp;</h4>
+    </div>
+    <div class="modal-body" style="height: 600px;">
+        <iframe id="popupWinFrame" name="popupWinFrame" style="width:800px;height:600px;"></iframe>
+    </div>
+</div>
+            
+<div id="_defaultDialog" class="modal" tabindex="-1" role="dialog"
+     aria-labelledby="dialog" aria-hidden="true">
+    <div class="modal-header">
+        <button name="close" type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+        <h4 name="title">{title}</h4>
+    </div>
+    <div class="modal-body" name="body">
+        {body}
+    </div>
+</div>
+
+<div class="modal-backdrop fade"></div>
+<div id="timeoutCutDownWin" class="modal" tabindex="-1" role="dialog"
+     aria-labelledby="timeoutCutDownWin" aria-hidden="true">
+    <div class="modal-header">
+        <h4>Session Timeout</h4>
+    </div>
+    <div class="modal-body">
+        <p>Due to lack of activity, this session will be logged out in 2 minutes.
+            <br>
+        </p>
+
+        <div class="highlight text-center">
+            <span class="color-error" id="sessionTimeoutLeftSeconds">120</span> second(s) left ...
+        </div>
+        <br>
+
+        <div class="text-center">
+            <button class="btn-green btn-minwidth" onclick="activeSession();">Keep Session Active</button>
+        </div>
+        <p></p>
+    </div>
+</div>
+<!--<div id="logoutWin" class="modal" tabindex="-1" role="dialog"-->
+     <!--aria-labelledby="logoutWin" aria-hidden="true">-->
+    <!--<div class="modal-header">-->
+        <!--<h4>We'd welcome your feedback!</h4>-->
+    <!--</div>-->
+    <!--<div class="modal-body">-->
+        <!--<p>Thank you for visiting our website. You have been selected to participate in a brief customer satisfaction survey to let us know how we can improve your experience.-->
+        <!--</p>-->
+        <!--<div class="highlight">-->
+            <!--<span class="color-info">The Survey is designed to measure your website experience you have had today and will only take a few minutes of your time.</span>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="modal-footer">-->
+        <!--<button class="btn-blue" url="#" onclick="window.location.href = '/tryLogoutPage';">Yes,I'll give feedback</button>-->
+        <!--<a href="/security/logout">No,thanks</a>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div id="logoutWin" title="We'd welcome your feedback!" style="display:none">
+    <p>Thank you for visiting our website. You have been selected to participate in a brief customer satisfaction survey to let us know how we can improve your experience.</p>
+    <div class="highlight">
+        <p>The Survey is designed to measure your website experience you have had today and will only take a few minutes of your time.</p> 
+    </div>
+    <br/>
+    <div class="center-alignment">
+        <button class="button_standard bg_blue" url="#" onclick="window.location.href = '/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/tryLogoutPage';">Yes,I'll give feedback</button>
+        <button class="button_standard bg_blue" url="#" onclick="window.location.href = '/security/logout'">No,thanks</button>       
+    </div>
+</div>
+
+<script type="text/javascript">
+    function showModalMask(modalDivId) {
+        jQuery(".modal-backdrop").show();
+    }
+    function openModal(modalDivId) {
+        $("#" + modalDivId).dialog({
+          dialogClass: "no-close",
+          modal: true,
+          width: 450,
+          height: 320
+        });
+    }
+
+    function closeModal(modalDivId) {
+      $("#" + modalDivId).dialog('close');
+    }
+
+    var sessionCutDownTimes = 120;
+
+    var timeOutId = null;
+    function cutDownSessionTimeout() {
+        clearTimeout(timeOutId);
+        if (sessionCutDownTimes == 0) {
+            window.location.href="/security/logout";
+        } else {
+            sessionCutDownTimes--;
+            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+            timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+        }
+    }
+
+    function activeSession() {
+        jQuery.ajax({
+            url: "/ping",
+            success: function (data, textStatus, xhr) {
+                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                if ("Y" == sessionTimeoutFlag)
+                    window.location.href="/security/login";
+                else{
+                    closeModal("timeoutCutDownWin");
+                    clearTimeout(timeOutId);
+                }
+            }
+        });
+    }
+
+    function sessionTimeoutWarning() {
+        openModal("timeoutCutDownWin");
+        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+    }
+    
+    function openPopupWin(uri){
+        if(uri){
+            window.frames["popupWinFrame"].location.href = uri;
+            openModal("popupWinModel");
+        }
+    }
+    
+    function cancelPopupWin(){
+        closeModal("popupWinModel");
+        return false;
+    }
+    
+    function checkLogoffWorkflow(){
+      jQuery.ajax({
+        async:true,
+        url:"/r_key_ozEsYt=hvoxOs-Xd4GlN9q3fdZngg==/workflow/checkLogoffWorkflow?ozEsYt=9gLnuSxr0dZWteRSJq8s4w%3D%3D",
+        cache:false,
+        type:"POST",
+        success:function (data) {
+          if(data && "true" == data){
+            $("#logoutWin").dialog({
+                dialogClass: "no-close",
+                modal: true,
+                width: 450, 
+                height: 320
+            });
+          }else{
+            window.location = "/security/logout";
+          }
+        }
+      });
+      return false;
+    }
+
+    jQuery(document).ready(function () {
+        setTimeout(sessionTimeoutWarning, 1080*1000);
+    });
+</script>
+            
+
+<script src="./mll/js/global_js/global_framework_1.js" type="text/javascript"
+        language="javascript"></script>
+<script language="javascript" type="text/javascript"
+        src="./mll/js/katabat_js/core/katabat_core_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./mll/js/loan_servicing_js/loan_servicing_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./mll/js/loan_servicing_js/jquery-ui.min-1.11.2.js"></script>
+<script type="text/javascript">
+    var sessionCutDownTimes = 120;
+
+    var timeOutId = null;
+    function cutDownSessionTimeout() {
+        clearTimeout(timeOutId);
+        if (sessionCutDownTimes == 0) {
+            window.location.href = "/security/logout";
+        } else {
+            sessionCutDownTimes--;
+            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+            timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+        }
+    }
+    function activeSession() {
+        jQuery.ajax({
+            url: "/ping",
+            success: function (data, textStatus, xhr) {
+                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                if ("Y" == sessionTimeoutFlag)
+                    window.location.href = "/security/logout";
+                else {
+                    modalToggle("timeoutCutDownWin");
+                    clearTimeout(timeOutId);
+                }
+            }
+        });
+    }
+    function sessionTimeoutWarning() {
+        modalToggle("timeoutCutDownWin");
+        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+    }
+
+    function openPopupWin(uri) {
+        if (uri) {
+            window.frames["popupWinFrame"].location.href = uri;
+            openModal("popupWinModel");
+        }
+    }
+
+    function cancelPopupWin() {
+        modalToggle("popupWinModel");
+        return false;
+    }
+    $(document).ready(function () {
+          setTimeout(sessionTimeoutWarning, 1080* 1000);
+    });
+</script>
+            
+</body>
+</html>

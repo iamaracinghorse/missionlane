@@ -1,0 +1,19 @@
+#top_nav {
+    color: #fff;
+    background-color: #EBECF1;
+}
+.break-all{
+    word-break: break-all;
+}
+
+/* mobile menu color bg color */
+#mobile_nav_flyout_left_container .bg_off_white{background-color: #EBECF1;}
+
+.logo {
+     background-color: #EBECF1;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     height: 45px;
+     width: 50%;
+}
