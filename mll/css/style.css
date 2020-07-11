@@ -1,6 +1,6 @@
 .input_submit {
   border: none;
-  font-family: "Source Sans Bold" !important;
+  font-family: "Roboto" !important;
   font-weight: bold;
 }
 
@@ -13,7 +13,10 @@
   word-wrap: break-word;
 }
 
-a.disabled, a.disabled:active, a.disabled:hover, a.disabled:visited {
+a.disabled,
+a.disabled:active,
+a.disabled:hover,
+a.disabled:visited {
   background: none;
   color: #999;
   cursor: default;
@@ -33,28 +36,27 @@ a.disabled, a.disabled:active, a.disabled:hover, a.disabled:visited {
   margin-left: 2em;
 }
 
-.text-upper{
+.text-upper {
   text-transform: uppercase;
 }
 
-
 .text_step_italic {
   font-size: 1.5em;
-  color: #759DC3;
+  color: #759dc3;
   font-style: italic;
   margin: 0 0 0 0;
   font-weight: bold;
 }
 
-.marginTop0{
-  margin-top:0;
+.marginTop0 {
+  margin-top: 0;
 }
 
-.marginTop05{
-  margin-top: 0.5em ;
+.marginTop05 {
+  margin-top: 0.5em;
 }
 
-.warning{
+.warning {
   color: red !important;
 }
 

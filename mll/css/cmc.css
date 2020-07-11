@@ -171,26 +171,47 @@ label.nwr input[type="radio"]{
 }
 
 .bg_success{
-    background-color: #9fbd4a;
+    background-color: #CDF2E8;
     color: #fff;
+    border-radius: 5px;
 }
+.bg_success * {
+    color: #007459;
+}
+.bg_success h4, .bg_success .h4 {
+    font-size: 1.25em;
+    font-family: "Roboto";
+}
+
 .bg_success span.fa-action-icon:before{
     content: "\f058";
+    padding:0 8px 0 16px;
 }
 
 .bg_error{
-    background-color: #c3002f;
-    color: #fff;
+    background-color: #FFF0ED;
+    color: #D90024;
 }
 .bg_error span.fa-action-icon:before{
     content: "\f058";
+    padding:0 8px 0 16px;
 }
 .bg_failure{
-    background-color: #efefef;
-    color: #ff0000;
+    background-color: #FFF0ED;
+    color: #D90024;
 }
+.bg_failure *, .bg_error * {
+    color: #D90024;
+}
+.bg_error h4, .bg_error .h4, 
+.bg_failure h4, .bg_failure .h4 {
+    font-size: 1.25em;
+    font-family: "Roboto";
+}
+
 .bg_failure span.fa-action-icon:before{
     content: "\f071";
+    padding:0 8px 0 16px;
 }
 #main_content_container{
     padding-bottom:10px;

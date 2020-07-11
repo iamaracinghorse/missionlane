@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Source Sans Regular";
+  font-family: "Roboto";
   font-size: 62.5%;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
@@ -11,88 +11,57 @@ body {
 
 /* Begin Fonts */
 
-@media screen and (min--moz-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: "Source Sans Regular";
-    src: url('../../fonts/sourcesanspro-regular-woff.woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
 @font-face {
-  font-family: 'Source Sans Regular';
-  src: url('../../fonts/sourcesanspro-regular-eot.eot');
-  src: url('../../fonts/sourcesanspro-regular-eot.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-regular-ttf.ttf') format('truetype'), url('../../fonts/sourcesanspro-regular-woff.woff') format('woff');
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"),
+    url(https://fonts.gstatic.com/s/raleway/v16/1Ptrg8zYS_SKggPNwIouWqZPANqczVs.woff2)
+      format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
   font-weight: 400;
-  font-style: normal;
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
-  @font-face {
-    font-family: 'Source Sans Regular';
-    src: url('../../fonts/sourcesanspro-regular-svg.svg') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+  src: local("Roboto Italic"), local("Roboto-Italic"),
+    url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2)
+      format("woff2");
 }
 
 @font-face {
-  font-family: 'Source Sans Light';
-  src: url('../../fonts/sourcesanspro-light-eot.eot');
-  src: url('../../fonts/sourcesanspro-light-eot.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-light-ttf.ttf') format('truetype'), url('../../fonts/sourcesanspro-light-woff.woff') format('woff');
-  font-weight: 300;
+  font-family: "Roboto";
   font-style: normal;
-}
-
-@media screen and (min--moz-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: "Source Sans Light";
-    src: url('../../fonts/sourcesanspro-light-svg.svg');
-    font-weight: 300;
-    font-style: normal;
-  }
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
-  @font-face {
-    font-family: 'Source Sans Light';
-    src: url('../../fonts/sourcesanspro-light-woff.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-  }
-}
-
-@media screen and (min--moz-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: "Source Sans Bold";
-    src: url('../../fonts/sourcesanspro-bold-webfont-svg.svg');
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2)
+      format("woff2");
 }
 
 @font-face {
-  font-family: 'Source Sans Bold';
-  src: url('../../fonts/sourcesanspro-bold-webfont-eot.eot');
-  src: url('../../fonts/sourcesanspro-bold-webfont-eot.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-bold-webfont-ttf.ttf') format('truetype'), url('../../fonts/sourcesanspro-bold-webfont-woff.woff') format('woff');
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
-  font-style: normal;
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2)
+      format("woff2");
 }
-
-@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
-  @font-face {
-    font-family: 'Source Sans Bold';
-    src: url('../../fonts/sourcesanspro-bold-webfont-svg.svg') format('svg');
-    font-weight: 700;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotomono/v8/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW-AJi8SJQt.woff)
+    format("woff");
 }
 
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../../fonts/fontawesome-webfont-eot.eot');
-  src: url('../../fonts/fontawesome-webfont-eot.eot?#iefix') format('embedded-opentype'), url('../../fonts/fontawesome-webfont-ttf.ttf') format('truetype'), url('../../fonts/fontawesome-webfont-woff.woff') format('woff'), url('../../fonts/fontawesome-webfont-svg.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-family: "FontAwesome";
+  src: url("../../fonts/fontawesome-webfont-eot.eot");
+  src: url("../../fonts/fontawesome-webfont-eot.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/fontawesome-webfont-ttf.ttf") format("truetype"),
+    url("../../fonts/fontawesome-webfont-woff.woff") format("woff"),
+    url("../../fonts/fontawesome-webfont-svg.svg#fontawesomeregular?v=3.2.1")
+      format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -101,105 +70,129 @@ body {
 
 /* Begin Text Tags */
 
-h1, .h1 {
-  margin-bottom: .5em;
+h1,
+.h1 {
+  margin-bottom: 0.5em;
   margin-right: 20px;
   margin-left: 20px;
-  font-size: 3.5em;
-  font-family: "Source Sans Regular";
-  font-weight: normal;
-  color: #333;
+  font-size: 4.8em;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #0d0b23;
+  line-height: 1.15;
 }
 
 @media only screen and (max-width: 850px) {
-  #title_content_top h1, #title_main_content h1, #title_main_top h1, #title_main_top_partial h1 {
+  #title_content_top h1,
+  #title_main_content h1,
+  #title_main_top h1,
+  #title_main_top_partial h1 {
     margin-top: 15px;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .responsive h1, .responsive .h1 {
+  .responsive h1,
+  .responsive .h1 {
     font-size: 3em;
   }
 }
 
-p, .p {
-  font-size: 1.5em;
+p,
+.p {
+  font-size: 1.6em;
   margin-top: 1em;
+  color: rgba(13, 11, 35, 0.7);
 }
 
 @media only screen and (max-width: 640px) {
-  p, .p {
-    font-size: 1em;
+  p,
+  .p {
+    font-size: 1.6em;
     margin-top: 1em;
   }
 }
 
-h2, .h2, #right_rail h2, #right_rail .h2 {
-  font-size: 2.3em;
+h2,
+.h2,
+#right_rail h2,
+#right_rail .h2 {
+  font-size: 3.2em;
   margin-top: 1em;
-  font-family: "Source Sans Regular";
-  font-weight: normal;
-  color: #333;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #0d0b23;
+  line-height: 1.15;
 }
 
-h3, .h3 {
-  font-size: 1.7em;
+h3,
+.h3 {
+  font-size: 2.4em;
   margin-top: 1em;
-  font-family: "Source Sans Bold";
-  font-weight: normal;
-  color: #333;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #0d0b23;
+  line-height: 1.15;
 }
 
-h4, .h4 {
-  font-size: 1.5em;
+h4,
+.h4 {
+  font-size: 2em;
   margin-top: 1em;
-  font-family: "Source Sans Regular";
-  font-weight: normal;
-  color: #333;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #0d0b23;
+  line-height: 1.15;
 }
 
-h5, .h5 {
-  font-size: 1.5em;
+h5,
+.h5 {
+  font-size: 1.6em;
   margin-top: 1em;
-  font-family: "Source Sans Regular";
-  font-weight: normal;
-  color: #333;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #0d0b23;
 }
 
-h6, .h6 {
-  font-size: 1.5em;
-  font-family: "Source Sans Regular";
-  font-weight: normal;
+h6,
+.h6 {
+  font-size: 1.6em;
+  font-family: "Raleway";
   margin-top: 1em;
-  color: #333;
+  color: #0d0b23;
 }
 
-h2 + p, .h2 + p {
-  margin-top: .5em;
+h2 + p,
+.h2 + p {
+  margin-top: 0.5em;
 }
 
-h3 + p, .h3 + p {
-  margin-top: .5em;
+h3 + p,
+.h3 + p {
+  margin-top: 0.5em;
 }
 
-h4 + p, .h4 + p {
+h4 + p,
+.h4 + p {
   margin-top: 0em;
 }
 
-h5 + p, .h5 + p {
+h5 + p,
+.h5 + p {
   margin-top: 0em;
 }
 
-h5 + p, .h5 + p {
+h5 + p,
+.h5 + p {
   margin-top: 0em;
 }
 
 p + p {
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
-ul + p, ol + p {
+ul + p,
+ol + p {
   margin-top: 1em;
 }
 
@@ -212,24 +205,48 @@ ol {
   margin-left: 20px;
 }
 
-ul ul, ul ol, ol ol, ol ul {
+ul ul,
+ul ol,
+ol ol,
+ol ul {
   margin-top: 0em;
 }
 
-ul + ol, ol + ul, ul + ul, ol + ol {
-  margin-top: .5em;
+ul + ol,
+ol + ul,
+ul + ul,
+ol + ol {
+  margin-top: 0.5em;
 }
 
-h2 + ul, h2 + ol, .h2 + ul, .h2 + ol {
-  margin-top: .5em;
+h2 + ul,
+h2 + ol,
+.h2 + ul,
+.h2 + ol {
+  margin-top: 0.5em;
 }
 
-h3 + ul, h3 + ol, h4 + ul, h4 + ol, h5 + ul, h5 + ol, h6 + ul, h6 + ol,
-.h3 + ul, .h3 + ol, .h4 + ul, .h4 + ol, .h5 + ul, .h5 + ol, .h6 + ul, .h6 + ol {
+h3 + ul,
+h3 + ol,
+h4 + ul,
+h4 + ol,
+h5 + ul,
+h5 + ol,
+h6 + ul,
+h6 + ol,
+.h3 + ul,
+.h3 + ol,
+.h4 + ul,
+.h4 + ol,
+.h5 + ul,
+.h5 + ol,
+.h6 + ul,
+.h6 + ol {
   margin-top: 0em;
 }
 
-p + ul, p + ol {
+p + ul,
+p + ol {
   margin-top: 0;
 }
 
@@ -241,7 +258,7 @@ li {
 }
 
 #main ul li:before {
-  padding-right: .6em;
+  padding-right: 0.6em;
   position: relative;
   top: -2px;
   vertical-align: middle;
@@ -253,15 +270,18 @@ li li {
   font-size: 100% !important;
 }
 
-li, ol li ul li, ul li ol li ul li {
-  padding-top: .7em;
+li,
+ol li ul li,
+ul li ol li ul li {
+  padding-top: 0.7em;
   padding-bottom: 0em;
   margin-bottom: 0em;
   margin-top: 0em;
   font-size: 1.5em;
 }
 
-ul:first-child > li:first-child, ol:first-child > li:first-child {
+ul:first-child > li:first-child,
+ol:first-child > li:first-child {
   padding-top: 0px;
 }
 
@@ -270,7 +290,7 @@ ul:first-child > li:first-child, ol:first-child > li:first-child {
 }
 
 li .lifix {
-  font-size: .63em;
+  font-size: 0.63em;
 }
 
 ul.no_bullets > li {
@@ -288,7 +308,8 @@ ul.no_bullets li:before {
   display: none !important;
 }
 
-ul.no_default_style, ul.no_default_style ul {
+ul.no_default_style,
+ul.no_default_style ul {
   margin: 0px;
   line-height: 0px;
 }
@@ -330,7 +351,9 @@ li.dotted {
   padding-bottom: 5px;
 }
 
-ol li, ul li ol li, ol li ul li ol li {
+ol li,
+ul li ol li,
+ol li ul li ol li {
   background: none;
   padding-left: 0px;
 }
@@ -339,11 +362,13 @@ li > li {
   font-size: 100% !important;
 }
 
-li sup, li sub {
+li sup,
+li sub {
   font-size: 79% !important;
 }
 
-li sup span, li sub span {
+li sup span,
+li sub span {
   font-size: 120% \9 !important;
 }
 
@@ -362,7 +387,10 @@ a {
   outline: none;
 }
 
-a[name], a[name]:hover, a[name]:active, a[name]:visited {
+a[name],
+a[name]:hover,
+a[name]:active,
+a[name]:visited {
   color: #333 !important;
   cursor: text !important;
 }
@@ -375,13 +403,19 @@ a[name]:before {
   visibility: hidden;
 }
 
-a.tel, a.tel:hover, a.tel:active, a.tel:visited {
+a.tel,
+a.tel:hover,
+a.tel:active,
+a.tel:visited {
   color: #333 \9 !important;
   cursor: text \9 !important;
 }
 
 @media only screen and (min-width: 641px) {
-  a.tel, a.tel:hover, a.tel:active, a.tel:visited {
+  a.tel,
+  a.tel:hover,
+  a.tel:active,
+  a.tel:visited {
     color: #333 !important;
     cursor: text !important;
   }
@@ -389,20 +423,19 @@ a.tel, a.tel:hover, a.tel:active, a.tel:visited {
 
 a[href] {
   cursor: pointer;
-}
-
-#main a[href] {
-  font-family: "Source Sans Bold";
-  color: #4661E1;
+  font-family: "Roboto";
+  color: #4661e1;
 }
 
 #right_nav a[href] {
-  font-family: "Source Sans Regular";
+  font-family: "Roboto";
   display: block;
 }
 
-a[href], a[href]:active, a[href]:visited {
-  color: #4661E1;
+a[href],
+a[href]:active,
+a[href]:visited {
+  color: #4661e1;
   text-decoration: none;
   cursor: pointer;
 }
@@ -410,25 +443,22 @@ a[href], a[href]:active, a[href]:visited {
 #footer a[href],
 #footer a[href]:active,
 #footer a[href]:visited {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
 
 a[href]:hover {
-  color: #006b9e;
+  color: #021a89;
   cursor: pointer;
 }
 
 a img {
-  background-color: #EBECF1;
   border: none;
   cursor: pointer;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 60px;
- }
+}
 
 /* End ANCHOR TAGS */
 
@@ -440,7 +470,7 @@ sup {
   _vertical-align: bottom;
   position: relative;
   font-size: 79%;
-  bottom: .75ex;
+  bottom: 0.75ex;
   -webkit-backface-visibility: hidden;
 }
 
@@ -451,7 +481,8 @@ sup a {
 /* End SUP AND SUB TAGS */
 
 /* ALTERNATE TEXT OPTIONS */
-.line_height_tight, .line_height_tight * {
+.line_height_tight,
+.line_height_tight * {
   line-height: 1.3em;
 }
 
@@ -459,21 +490,21 @@ sup a {
   line-height: 1em;
 }
 
-b, strong, .weight_bold {
-  font-family: "Source Sans Bold" !important;
-  font-weight: normal !important;
+b,
+strong,
+.weight_bold {
+  font-weight: 700 !important;
 }
 
 .weight_normal {
-  font-family: "Source Sans Regular" !important;
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 .jumbo_text {
   font-size: 15em;
   line-height: 1em;
   margin-bottom: 0;
-  margin-top: -.15em !important;
+  margin-top: -0.15em !important;
 }
 
 .jumbo_text.no_descenders + * {
@@ -497,11 +528,13 @@ b, strong, .weight_bold {
   margin-bottom: -15px !important;
 }
 
-.jumbo_text sup, .large_text sup {
+.jumbo_text sup,
+.large_text sup {
   font-size: 60%;
 }
 
-.jumbo_text [class*="fa"], .large_text [class*="fa"] {
+.jumbo_text [class*="fa"],
+.large_text [class*="fa"] {
   font-size: 80%;
 }
 
@@ -551,7 +584,7 @@ b, strong, .weight_bold {
 
 .indent_1 {
   font-size: 1.7em;
-  padding-left: .7em;
+  padding-left: 0.7em;
 }
 
 .menu_section_head {
@@ -597,7 +630,8 @@ input {
   display: block;
 }
 
-input[type*="text"], textarea {
+input[type*="text"],
+textarea {
   border: 1px solid;
   border-color: #acadb2 #dcdfe6 #e2e9ef #e3e3eb;
   display: block;
@@ -609,15 +643,20 @@ input[type*="text"], textarea {
 }
 
 input[type*="text"] {
-  color: #0E2A66;
-  height: 35px;
-  line-height: 35px;
+  color: rgba(13, 11, 35, 0.7);
+  height: 54px;
+  line-height: 54px;
   padding: 0px 10px;
   position: relative;
   vertical-align: middle;
   font-size: 1.6em;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #fafafb;
+  border: 2px solid #dbdbde;
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 256px;
+  box-sizing: border-box;
 }
 
 .max_width_input {
@@ -628,7 +667,8 @@ select.max_width_input {
   width: 280px !important;
 }
 
-.max_width_input > input, .max_width_input > select {
+.max_width_input > input,
+.max_width_input > select {
   width: 280px !important;
 }
 
@@ -644,28 +684,32 @@ select {
   border: 1px solid #ccc;
 }
 
-select + label, select + .clear + label {
-  margin-top: .5em !important;
+select + label,
+select + .clear + label {
+  margin-top: 0.5em !important;
 }
 
 label + select {
   float: none;
-  margin: .3em auto auto auto;
+  margin: 0.3em auto auto auto;
 }
 
 input + label {
   display: inline-block;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
-label, label + input + label {
+label,
+label + input + label {
   font-size: 1.5em;
-  margin-top: 1em !important;
+  margin-top: 24px !important;
   display: block;
+  font-weight: bold;
+  color: #0d0b23;
 }
 
 p + input {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 input.error {
@@ -675,18 +719,26 @@ input.error {
 
 input[type*="radio"] + label {
   margin-left: 5px;
+  font-weight: normal;
+  color: rgba(13, 11, 35, 0.7);
 }
 
 /* End FORM ELEMENTS */
 
 /* Begin List Nav */
 
-.list_nav .nav_top_item > a, .list_nav .nav_top_item > a:hover, .list_nav .nav_top_item > a:visited, .list_nav .nav_top_item > a:active {
+.list_nav .nav_top_item > a,
+.list_nav .nav_top_item > a:hover,
+.list_nav .nav_top_item > a:visited,
+.list_nav .nav_top_item > a:active {
   color: #333;
 }
 
-.list_nav .nav_top_item.section_on > a .h3, .list_nav ll.nav_top_item.section_on > a:hover .h3, .list_nav .nav_top_item.section_on > a:visited .h3, .list_nav .nav_top_item.section_on > a:active .h3 {
-  font-family: "Source Sans Bold";
+.list_nav .nav_top_item.section_on > a .h3,
+.list_nav ll.nav_top_item.section_on > a:hover .h3,
+.list_nav .nav_top_item.section_on > a:visited .h3,
+.list_nav .nav_top_item.section_on > a:active .h3 {
+  font-family: "Roboto";
 }
 
 .list_nav .nav_top_item > a:hover {
@@ -704,22 +756,25 @@ input[type*="radio"] + label {
 }
 
 .list_nav li.section_on_last {
-  font-family: "Source Sans Bold";
+  font-family: "Roboto";
 }
 
 .list_nav li.section_on_last li {
-  font-family: "Source Sans Regular";
+  font-family: "Roboto";
 }
 
 .list_nav .h3 {
-  font-family: "Source Sans Regular";
+  font-family: "Roboto";
 }
 
 .list_nav.small .h3 {
-  font-family: "Source Sans Bold" !important;
+  font-family: "Roboto" !important;
 }
 
-.list_nav .item_on > a .h3, .list_nav .item_on > a:visited .h3, .list_nav .item_on a:hover > .h3, .list_nav .item_on a:active > .h3 {
+.list_nav .item_on > a .h3,
+.list_nav .item_on > a:visited .h3,
+.list_nav .item_on a:hover > .h3,
+.list_nav .item_on a:active > .h3 {
   color: #333;
   text-decoration: none !important;
 }
@@ -729,11 +784,14 @@ input[type*="radio"] + label {
 }
 
 .list_nav li.item_show a:hover .h3 {
-  color: #006B9E;
+  color: #006b9e;
 }
 
 @media only screen and (max-width: 850px) {
-  .list_nav .item_on > a .h3, .list_nav .item_on > a:visited .h3, .list_nav .item_on a:hover > .h3, .list_nav .item_on a:active > .h3 {
+  .list_nav .item_on > a .h3,
+  .list_nav .item_on > a:visited .h3,
+  .list_nav .item_on a:hover > .h3,
+  .list_nav .item_on a:active > .h3 {
     color: #008dc9;
   }
 
@@ -742,13 +800,15 @@ input[type*="radio"] + label {
   }
 }
 
-.list_nav li.item_on li a, .list_nav li.item_on li a:visited, .list_nav li.item_on li a:active {
-  font-family: "Source Sans Regular";
+.list_nav li.item_on li a,
+.list_nav li.item_on li a:visited,
+.list_nav li.item_on li a:active {
+  font-family: "Roboto";
   text-transform: none;
 }
 
 .list_nav li.item_on li a:hover {
-  font-family: "Source Sans Regular";
+  font-family: "Roboto";
   text-transform: none;
 }
 
@@ -756,8 +816,14 @@ input[type*="radio"] + label {
 
 /* Begin Accordion */
 
-.accordion_small a[href], .accordion_small a[href]:visited, .accordion_small a[href]:active, .accordion_small a[href]:hover,
-.accordion_medium a[href], .accordion_medium a[href]:visited, .accordion_medium a[href]:active, .accordion_medium a[href]:hover {
+.accordion_small a[href],
+.accordion_small a[href]:visited,
+.accordion_small a[href]:active,
+.accordion_small a[href]:hover,
+.accordion_medium a[href],
+.accordion_medium a[href]:visited,
+.accordion_medium a[href]:active,
+.accordion_medium a[href]:hover {
   color: #333 !important;
 }
 
@@ -766,7 +832,9 @@ input[type*="radio"] + label {
     border-top: 1px solid #d0e6f1;
   }
 
-  .responsive .accordion_small > a[href], .responsive .accordion_small > a[href]:active, .responsive .accordion_small > a[href]:visited {
+  .responsive .accordion_small > a[href],
+  .responsive .accordion_small > a[href]:active,
+  .responsive .accordion_small > a[href]:visited {
     color: #008dc9 !important;
     text-decoration: none !important;
     cursor: pointer !important;
@@ -784,7 +852,9 @@ input[type*="radio"] + label {
     border-top: 1px solid #d0e6f1;
   }
 
-  .responsive .accordion_medium > a[href], .responsive .accordion_medium > a[href]:active, .responsive .accordion_medium > a[href]:visited {
+  .responsive .accordion_medium > a[href],
+  .responsive .accordion_medium > a[href]:active,
+  .responsive .accordion_medium > a[href]:visited {
     color: #008dc9 !important;
     text-decoration: none !important;
     cursor: pointer !important;
@@ -802,7 +872,9 @@ input[type*="radio"] + label {
     border-top: 1px solid #d0e6f1;
   }
 
-  .responsive .accordion_large > a[href], .responsive .accordion_large > a[href]:active, .responsive .accordion_large > a[href]:visited {
+  .responsive .accordion_large > a[href],
+  .responsive .accordion_large > a[href]:active,
+  .responsive .accordion_large > a[href]:visited {
     color: #008dc9 !important;
     text-decoration: none !important;
     cursor: pointer !important;
@@ -2967,7 +3039,9 @@ input[type*="radio"] + label {
   content: "\f23a";
 }
 
-[class*="fa-"], [class*="icon"], [id*="icon"] {
+[class*="fa-"],
+[class*="icon"],
+[id*="icon"] {
   font-family: FontAwesome;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
@@ -2981,7 +3055,7 @@ input[type*="radio"] + label {
 
 a + [class^="fa-"],
 a [class^="fa-"] {
-  padding-left: .5em;
+  padding-left: 0.5em;
 }
 
 a [class^="fa-caret-left"] {
@@ -2998,5 +3072,3 @@ a [class^="fa-caret-left"] {
 }
 
 /* End Font Awesome Icons */
-
-
